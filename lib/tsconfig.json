@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "lib": ["es7"],
+    "declaration": true,
+    "declarationMap": false,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "rootDirs": ["./", "./dist"],
+    "composite": true,
+    /* Strict Type-Checking Options */
+    "strict": true,
+    /* Enable all strict type-checking options. */
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "alwaysStrict": true,
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "typeRoots": ["./node_modules/@types", "./interface"],
+    "allowSyntheticDefaultImports": true,
+    /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
+    "esModuleInterop": true,
+    "sourceRoot": "./lib",
+    /* Experimental Options */
+    "experimentalDecorators": true,
+    /* Enables experimental support for ES7 decorators. */
+    "emitDecoratorMetadata": true,
+    /* Enables experimental support for emitting type metadata for decorators. */
+    "noEmitOnError": true,
+    "listEmittedFiles": true,
+    "pretty": true,
+    "version": true
+  },
+  "include": ["./core", "./interface", "index.d.ts"],
+  "files": ["index.d.ts"],
+  "exclude": ["node_modules", "./dist"]
+}

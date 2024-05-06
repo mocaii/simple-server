@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "lib": ["es5"],
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "../" /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
+    "rootDirs": ["./"],
+    "composite": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false /* Enable strict checking of property initialization in classes. */,
+    "noImplicitThis": false,
+    "alwaysStrict": true,
+    "moduleResolution": "node",
+    "typeRoots": ["./node_modules/@types"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "sourceRoot": "./",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmitOnError": true
+  },
+  "include": ["./", "../lib"],
+  "exclude": ["node_modules", "dist"]
+}

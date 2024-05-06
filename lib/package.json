@@ -1,0 +1,29 @@
+{
+  "name": "momo-core",
+  "version": "1.0.0",
+  "description": "momo core",
+  "main": "./dist/core/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist && npx tsc"
+  },
+  "author": "mocai",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "glob": "^10.3.10",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.15.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-compose": "^4.1.0",
+    "koa-router": "^12.0.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "^8.1.0",
+    "log4js": "^6.9.1",
+    "mysql2": "^3.7.1",
+    "vary": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5"
+  }
+}
